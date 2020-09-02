@@ -1,0 +1,15 @@
+
+.slide-one-item .owl-dots {
+  display: block; }
+  .slide-one-item .owl-dots .owl-dot {
+    display: inline-block; }
+    .slide-one-item .owl-dots .owl-dot > span {
+      width: 7px;
+      height: 7px;
+      display: inline-block;
+      border-radius: 50%;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      background: #ccc; }
+    .slide-one-item .owl-dots .owl-dot.active > span {
+      background: #1C63FB; }
